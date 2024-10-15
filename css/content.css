@@ -1,0 +1,54 @@
+@import url("font-awesome/css/font-awesome.min.css");
+@import url("micons/micons.css");
+@import url("fonts.css");
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.heading {
+    font-size: 4rem;
+    color: #9e2aba;
+    margin-bottom: 20px;
+}
+
+.subheading {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.message {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 5px;
+    color: #9e2aba;
+    font-size: 1.5rem;
+    transition: color 0.2s ease-in-out;
+}
+
+.social-links a:hover {
+    color: #5e1575;
+}
